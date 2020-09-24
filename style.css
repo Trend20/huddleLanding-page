@@ -85,7 +85,7 @@ header {
     height: auto;
 }
 
-.hero>button {
+.btn {
     width: 30%;
     margin-top: 30px;
     height: 70px;
@@ -168,4 +168,247 @@ header {
     color: #444;
     font-size: 1.5rem;
     margin-left: 50px;
+}
+
+/* grow together */
+
+.grow-together {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.grow-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin-left: 70px;
+}
+
+.grow-text>h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 80%;
+}
+
+.grow-text>p {
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.05rem;
+    width: 80%;
+    height: auto;
+}
+
+.grow-image {
+    width: 50%;
+}
+
+/* conversation */
+
+.conversation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 200px 0px 100px 70px;
+}
+
+.conv-mage>img {
+    margin-left: 70px;
+    max-width: 40%;
+}
+
+.conv-text {
+    width: 70%;
+    margin-right: 180px;
+    height: auto;
+}
+
+.conv-text>h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    width: 100%;
+}
+
+.conv-text>p {
+    margin-top: 30px;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+/* users */
+.users {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.users-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin-left: 70px;
+}
+
+.users-text>h1 {
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 900;
+    width: 80%;
+}
+
+.users-text>p {
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 1.05rem;
+    width: 80%;
+    height: auto;
+}
+
+.users-image {
+    width: 50%;
+}
+
+/* ready */
+
+.ready {
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 180px;
+}
+
+.ready>h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.ready>button {
+    margin-bottom: 100px;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: url(./images/bg-footer-top-desktop.svg) no-repeat center;
+    background-size: 150% 100%;
+    height: 500px;
+    position: absolute;
+    left: 10%;
+}
+
+.contact-us {
+    width: 50%;
+    margin-left: 70px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.home {
+    height: auto;
+}
+
+.home>img {
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.home>p {
+    width: 60%;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.tel {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+.tel>h3 {
+    padding: 10px;
+}
+
+.social {
+    display: flex;
+    width: 30%;
+}
+
+.social>li {
+    list-style: none;
+    padding: 10px;
+}
+
+.social li i {
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.newsletter>h1 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.newsletter>p {
+    width: 70%;
+    font-size: 1rem;
+}
+
+form {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+}
+
+input {
+    height: 40px;
+    width: 50%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#button {
+    width: 25%;
+    height: 40px;
+    margin-left: 20px;
+    color: #fff;
+    background: hsl(322, 100%, 66%);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
 }
